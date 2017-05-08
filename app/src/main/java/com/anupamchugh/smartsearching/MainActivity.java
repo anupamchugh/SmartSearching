@@ -1,11 +1,5 @@
 package com.anupamchugh.smartsearching;
 
-<<<<<<< HEAD
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
-=======
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
@@ -55,14 +49,13 @@ public class MainActivity extends AppCompatActivity implements CuisineSearchAdap
     ShowSearchView showSearchView;
 
     boolean editTextChangedFromClick = false;
->>>>>>> 1.0
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
-=======
+
 
         showSearchView = new ShowSearchView();
 
@@ -262,6 +255,5 @@ public class MainActivity extends AppCompatActivity implements CuisineSearchAdap
         cuisineSearchAdapter.notifyDataSetChanged();
         recyclerView.setAdapter(cuisineSearchAdapter);
 
->>>>>>> 1.0
     }
 }
